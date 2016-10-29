@@ -1,0 +1,16 @@
+{
+  "name": "cmt-test",
+  "version": "1.0.0",
+  "description": "This is an interview task given by CMT.",
+  "main": "app.js",
+  "scripts": {
+    "tests": "mocha ./app/tests --recursive --watch" ,
+    "start" : "node ./app/start"
+  },
+  "author": "Khurram Shahzad",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.5",
+    "valid-url": "^1.0.9"
+  }
+}
